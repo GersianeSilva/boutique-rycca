@@ -1,0 +1,58 @@
+body { font-family: Arial, sans-serif; background: #fff; }
+
+
+.section-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #d1007c;
+    border-left: 6px solid #d1007c;
+    padding-left: 10px;
+}
+
+.product-card {
+    border: 1px solid #eee;
+    padding: 10px;
+    border-radius: 12px;
+    text-align: center;
+    transition: 0.2s;
+    background: #fff;
+}
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.product-card img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.product-card strong { color: #333; font-size: 18px; }
+
+
+.buy-btn {
+    background: #d1007c;
+    color: white;
+    border: none;
+    padding: 10px 0;
+    width: 100%;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+.buy-btn:hover { background: #ad0068; }
+.buy-btn a { text-decoration: none; color: white; }
+
+/* Sessão explicativa */
+.info-box {
+    padding: 30px;
+    background: #f9f9f9;
+    border-radius: 14px;
+    margin-top: 40px;
+}
+.info-box h3 { color: #d1007c; font-weight: 700; }
+
+@media (max-width: 768px) {
+    .hero h1 { font-size: 32px; }
+    .hero p { font-size: 16px; }
+}

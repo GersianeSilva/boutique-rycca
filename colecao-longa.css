@@ -1,0 +1,17 @@
+/* HERO */
+.hero-colecao {
+    width: 100%;
+    height: 350px;
+    background: url("img/benner-longas.jpg");
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 680px) {
+    .hero-colecao {
+        height: 360px; 
+        background-position: top center; 
+    }
+}

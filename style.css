@@ -1,0 +1,99 @@
+/* cabeçalho da pagina */
+body {
+    font-family: Arial, sans-serif;
+    padding-top: 90px; 
+}
+
+header {
+    background: #3a3939;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.navbar-brand img{
+    width: 130px;
+}
+
+
+
+.nav-item{
+    margin-top: 40px;
+    font-size: 1.1rem;
+}
+
+
+.nav-link{
+    color: #fff !important;
+}
+
+.nav-link:hover, .navbar-brand :hover{
+color: #c4007a !important;
+transition: 0.8s;
+}
+
+
+/* rodapé do site*/
+footer {
+    background: #222;
+    color: #fff;
+    padding: 20px 0px 5px;
+    margin-top: 40px;
+}
+
+footer h5 {
+    margin-bottom: 15px;
+}
+
+.link-footer a {
+    color: #bbb;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 8px;
+    transition: 0.4s;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-middle {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.link-footer a:hover {
+    color: #fff;
+    transform: translateX(5px);
+}
+.social-icons {
+    display: flex;
+    gap: 12px;
+    margin-top: 15px;
+}
+
+.social-icons .icon {
+    background: #4b4a4a;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: white;
+    font-size: 1.2rem;
+    transition: 0.8s;
+}
+
+.social-icons .icon:hover {
+    background: #c4007a;
+    transform: translateY(-3px);
+}

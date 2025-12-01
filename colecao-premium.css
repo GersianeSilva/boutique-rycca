@@ -1,0 +1,11 @@
+/* HERO */
+.hero-colecao {
+    width: 100%;
+    height: 350px;
+    background: url("img/banner-premium.jpg") center/cover no-repeat;
+    position: relative;
+      background-position: top center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

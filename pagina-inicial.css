@@ -1,0 +1,55 @@
+.banner {
+    background: url('img/banner-principal.jpg') center/cover no-repeat;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+}
+
+.banner h2 {
+        font-size: 3rem;
+}   
+
+.banner p{
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+.section-title {
+    text-align: center;
+    font-size: 1.6rem;
+    margin: 40px 0 20px;
+    margin-bottom: 70px;
+}
+.product-card img {
+    width: 100%;
+    border-radius: 6px;
+}
+.product-card {
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+.product-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+.buy-btn  {
+    background: #c4007a;
+    border: none;
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+}
+.buy-btn a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.buy-btn:hover {
+    background: #a30065;
+    transition: 0.5s;
+}

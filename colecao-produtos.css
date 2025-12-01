@@ -1,0 +1,75 @@
+
+.hero-colecao .overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.35);
+}
+
+.hero-conteudo {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero-conteudo h1 {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.hero-conteudo p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* DESCRIÇÃO */
+.titulo-secundario {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.texto-descricao {
+    max-width: 750px;
+    margin: 0 auto;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+/* PRODUTOS */
+
+.section-title {
+    text-align: center;
+    font-size: 1.6rem;
+    margin: 110px 0 20px;
+    margin-bottom: 70px;
+}
+.product-card img {
+    width: 100%;
+    border-radius: 6px;
+}
+.product-card {
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+.product-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+.buy-btn  {
+    background: #c4007a;
+    border: none;
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+}
+.buy-btn a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.buy-btn:hover {
+    background: #a30065;
+    transition: 0.5s;
+}

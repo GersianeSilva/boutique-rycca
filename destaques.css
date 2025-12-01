@@ -1,0 +1,61 @@
+ .titulo-pagina {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 32px;
+        }
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; 
+    justify-content: center;
+}
+
+.produto-card {
+    width: 220px; 
+    margin: 0; 
+}
+
+.produto-card {
+    border: 1px solid #efefef;
+    border-radius: 10px;
+    padding: 10px;
+    transition: .2s ease-in-out;
+    background: #fff;
+}
+
+.produto-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.produto-card img {
+    width: 100%;
+    height: 280px; 
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.mt-3{
+    font-size: 17px;
+    color: rgb(64, 64, 64);
+    font-weight: normal;
+}
+
+.btn-comprar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-comprar {
+    background-color: #d4007a;
+    color: white;
+    border: none;
+    width: 100%;
+    font-size: 16px; 
+    border-radius: 6px;
+    padding: 8px 0;
+}
+.btn-comprar:hover {
+    opacity: .8;
+}
