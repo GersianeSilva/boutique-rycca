@@ -11,7 +11,7 @@
 }
 
 .produto-card {
-    width: 220px; 
+    width: 210px; 
     margin: 0; 
 }
 
@@ -59,3 +59,4 @@
 .btn-comprar:hover {
     opacity: .8;
 }
+
